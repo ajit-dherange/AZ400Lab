@@ -1,6 +1,6 @@
-# AZ400Lab01 - Continuous deployment to Azure App Service
+# AZ400Lab01 
 
-(ET T3/54 SIMULATION)
+(ET T3/54 SIMULATION) - Continuous deployment to Azure App Service
 
 Answer:
 1. Open Microsoft Azure Portal
