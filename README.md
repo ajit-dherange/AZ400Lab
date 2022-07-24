@@ -1,5 +1,8 @@
 # AZ400Lab01 - Continuous deployment to Azure App Service
 
+(ET T3/54 SIMULATION)
+
+Answer:
 1. Open Microsoft Azure Portal
 2. Log into your Azure account, select App Services in the Azure portal left navigation, and then select configure az400-9940427-func1.
 3. On the app page, select Deployment Center in the left menu.
@@ -14,4 +17,13 @@ select Continue.
 References:
 https://docs.microsoft.com/en-us/azure/app-service/deploy-continuous-deployment
 
-(ET T3/54 Simulation)
+
+
+(ET T4/6) SIMULATION - You plan to implement a CI/CD strategy for an Azure Web App named az400-11566895-main. 
+You need to configure a staging environment for az400-11566895-main
+
+Answer: Add a slot -
+In the Azure portal, search for and select App Services and select your app az400-11566895-main.
+In the left pane, select Deployment slots > Add Slot.
+In the Add a slot dialog box, give the slot a name, and select whether to clone an app configuration from another deployment slot. Select Add to continue.
+After the slot is added, select Close to close the dialog box. The new slot is now shown on the Deployment slots page. Reference: https://docs.microsoft.com/en-us/azure/app-service/deploy-staging-slots
